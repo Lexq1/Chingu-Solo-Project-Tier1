@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2 ?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+html{
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 1.4rem;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  color: #333;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.wrap-navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #383E4C;
+    border-color: #383E4C;
+    padding: 20px 0;
+}
+
+.navbar>ul{
+  display: flex;
+  /*gap: 20px;*/
+}
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.link-list-nav{
+  color: #fff;
+  font-size: 20px;
+  padding: 15px 25px;
+  border: 1px solid #646d7c;
+  border-radius: 15px;
+  text-decoration: none;
+  transition: background .5s;
+}
+
+.link-list-nav:hover,
+.link-list-nav:active{
+  background: #49505F;
+}
+
+.header{
+   position: absolute;
+   top: 0;
+   background: url('../img/bg-header.jpg') no-repeat top center;
+   width: 100vw;
+   background-size: cover;
+   height: 80vh;
+}
+
+.list-nav{
+  padding: 10px;
+}
+
+.title-header-top,
+.subtitle-header-top{
+  text-align: center;
+  color: #fff;
+}
+
+.title-header-top{
+  text-transform: uppercase;
+  text-shadow: 2px 2px #000;
+  font-size: 70px;
+}
+
+.subtitle-header-top{
+  font-size: 25px;
+  text-shadow: 1px 1px #333;
+}
+
+.header-top{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 80vh;
+}
+
+.wrap-text{
+
+  /*padding: calc(615px - 348.5px) 0;*/
+}
